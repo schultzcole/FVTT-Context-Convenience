@@ -1,5 +1,5 @@
 /**
- * Folder Utilities
+ * Folder Actions
  */
 
 /**

@@ -1,4 +1,8 @@
 /**
+ * Scene Actions
+ */
+
+/**
  * Shows or hides all scenes in this folder in the navigation bar
  * @param {string}  folder  the id or name of the folder in which to toggle permissions
  * @param {boolean} navOn   whether navigation should be on or off for all scenes in the given folder

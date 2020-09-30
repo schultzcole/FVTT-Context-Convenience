@@ -1,3 +1,4 @@
+import { configurePrototypeTokenForActor } from "./actions/actors.js";
 import { sortFolderContents, setFolderContentsDefaultPermission } from "./actions/folders.js";
 import { setNavigationForAllScenes } from "./actions/scenes.js";
 import permissionDialog from "./apps/permissionDialog.js";
@@ -97,10 +98,8 @@ Hooks.on("init", () => {
     };
 
     const scenes_old_getFolderContextOptions = SceneDirectory.prototype._getFolderContextOptions;
-    const new_getFolderContextOptions = SidebarDirectory.prototype._getFolderContextOptions;
     SceneDirectory.prototype._getFolderContextOptions = function () {
         const ctxOptions = scenes_old_getFolderContextOptions.call(this);
-        // ctxOptions.unshift();
 
         const showNavAll = {
             name: "ctx-convenience.SCENE.ShowNavAll",
@@ -123,6 +122,27 @@ Hooks.on("init", () => {
         };
 
         ctxOptions.unshift(showNavAll, hideNavAll);
+        return ctxOptions;
+    };
+
+    const actors_old_getEntryContextOptions = ActorDirectory.prototype._getEntryContextOptions;
+    ActorDirectory.prototype._getEntryContextOptions = function () {
+        const ctxOptions = actors_old_getEntryContextOptions.call(this);
+
+        const editPrototypeToken = {
+            name: "TOKEN.TitlePrototype",
+            icon: '<i class="fas fa-user-circle"></i>',
+            condition: (li) => {
+                const actor = game.actors.get(li.data("entityId"));
+                return game.user.isGM || (actor.owner && game.user.can("TOKEN_CONFIGURE"));
+            },
+            callback: (li) => {
+                configurePrototypeTokenForActor(li.data("entityId"));
+            },
+        };
+
+        ctxOptions.unshift(editPrototypeToken);
+
         return ctxOptions;
     };
 });
