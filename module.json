@@ -18,8 +18,8 @@
   "compatibleCoreVersion": "0.7.3",
   "url": "https://github.com/schultzcole/FVTT-Context-Convenience",
   "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-Context-Convenience/master/module.json",
-  "download": "https://github.com/schultzcole/FVTT-Context-Convenience/archive/1.0.0.zip",
-  "license": "https://github.com/schultzcole/FVTT-Context-Convenience/blob/1.0.0/LICENSE",
-  "readme": "https://github.com/schultzcole/FVTT-Context-Convenience/blob/1.0.0/README.md",
-  "changelog": "https://github.com/schultzcole/FVTT-Context-Convenience/blob/1.0.0/CHANGELOG.md"
+  "download": "https://github.com/schultzcole/FVTT-Context-Convenience/archive/1.1.0.zip",
+  "license": "https://github.com/schultzcole/FVTT-Context-Convenience/blob/1.1.0/LICENSE",
+  "readme": "https://github.com/schultzcole/FVTT-Context-Convenience/blob/1.1.0/README.md",
+  "changelog": "https://github.com/schultzcole/FVTT-Context-Convenience/blob/1.1.0/CHANGELOG.md"
 }
