@@ -1,0 +1,19 @@
+{
+    "ctx-convenience": {
+        "FOLDER": {
+            "ExportToComp": "Export to Compendium",
+            "SetPerms": "Set Default Permissions",
+            "SortContentsAsc": "Sort Contents (Ascending)",
+            "SortContentsDesc": "Sort Contents (Descending)"
+        },
+        "SCENE": {
+            "ShowNavAll": "Show all scenes in navigation bar",
+            "HideNavAll": "Hide all scenes in navigation bar"
+        },
+        "GENERAL": {
+            "AreYouSure": "Are you sure?",
+            "Confirm": "Confirm",
+            "SelectPerms": "Select Default Permission"
+        }
+    }
+}
