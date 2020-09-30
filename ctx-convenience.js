@@ -1,5 +1,5 @@
-import { sortFolderContents, setFolderContentsDefaultPermission } from "./utilities/folders.js";
-import { setNavigationForAllScenes } from "./utilities/scenes.js";
+import { sortFolderContents, setFolderContentsDefaultPermission } from "./actions/folders.js";
+import { setNavigationForAllScenes } from "./actions/scenes.js";
 import permissionDialog from "./apps/permissionDialog.js";
 import ApplicationRejected from "./apps/ApplicationRejected.js";
 import confirmDialog from "./apps/confirmDialog.js";
