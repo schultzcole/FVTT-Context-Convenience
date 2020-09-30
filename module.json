@@ -2,7 +2,7 @@
   "name": "ctx-convenience",
   "title": "Context Convenience",
   "description": "Adds additional conveniences and utilities to sidebar context menus.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Cole Schultz (cole#9640)",
   "languages": [
     {
@@ -15,7 +15,7 @@
     "ctx-convenience.js"
   ],
   "minimumCoreVersion": "0.6.4",
-  "compatibleCoreVersion": "0.6.6",
+  "compatibleCoreVersion": "0.7.3",
   "url": "https://github.com/schultzcole/FVTT-Context-Convenience",
   "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-Context-Convenience/master/module.json",
   "download": "https://github.com/schultzcole/FVTT-Context-Convenience/archive/1.0.0.zip",
