@@ -1,5 +1,12 @@
 import ApplicationRejected from "./ApplicationRejected.js";
 
+/**
+ * Creates a dialog which prompts the user to select a permission level, then returns the chosen
+ * permission level in a promise.
+ *
+ * @returns A Promise which resolves to the ENTITY_PERMISSIONS integer confirmed by the user,
+ * or rejects if the user cancels or closes the dialog without confirming.
+ */
 export default function permissionDialog() {
     return new Promise((resolve, reject) => {
         new Dialog(

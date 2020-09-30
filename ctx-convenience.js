@@ -56,7 +56,7 @@ Hooks.on("init", () => {
             },
         };
 
-        // unused
+        // Unused because `Folder.exportToCompendium` doesn't seem to work?
         const exportToComp = {
             name: "ctx-convenience.FOLDER.ExportToComp",
             icon: '<i class="fas fa-atlas"></i>',
