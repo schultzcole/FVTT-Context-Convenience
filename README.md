@@ -4,7 +4,7 @@ A selection of convenient utility actions to sidebar right-click menus.
 
 ## Functionality
 
-### Global Folder Actions
+### 📁 Global Folder Actions
 
 Actions available on all sidebar folders.
 
@@ -16,13 +16,13 @@ Sort entities in any folder alphabetically either ascending or descending.
 
 Set the "Default" permission level on all entities in the folder.
 
-### Scene Folder Actions
+### 🗺️ Scene Folder Actions
 
 #### Show/Hide in Navigation
 
 Shows or hides all scenes in a folder in the top navigation bar.
 
-### Actor Entity Actions
+### 🧑 Actor Entity Actions
 
 #### Edit Prototype Token
 
