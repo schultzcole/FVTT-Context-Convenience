@@ -3,11 +3,6 @@
         "SCENE": {
             "ShowNavAll": "Show all scenes in navigation bar",
             "HideNavAll": "Hide all scenes in navigation bar"
-        },
-        "GENERAL": {
-            "AreYouSure": "Are you sure?",
-            "Confirm": "Confirm",
-            "SelectPerms": "Select Default Permission"
         }
     }
 }
