@@ -1,0 +1,23 @@
+{
+    "ctx-convenience": {
+        "I18N": {
+            "LANGUAGE": "Español",
+            "MAINTAINERS": "@Viriato139ac#0342"
+        },
+		"FOLDER": {
+            "ExportToComp": "Exportar a Compendio",
+            "SetPerms": "Permisos por Defecto",
+            "SortContentsAsc": "Ordenar Contenido (Ascendente)",
+            "SortContentsDesc": "Ordenar Contenido (Descendente)"
+        },
+        "SCENE": {
+            "ShowNavAll": "Mostrar todas las escenas en la barra de navegación",
+            "HideNavAll": "Quitar todas las escenas en la barra de navegación"
+        },
+        "GENERAL": {
+            "AreYouSure": "¿Está seguro?",
+            "Confirm": "Confirmar",
+            "SelectPerms": "Seleccione Permisos por Defecto"
+        }
+    }
+}
