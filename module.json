@@ -2,7 +2,7 @@
   "name": "ctx-convenience",
   "title": "Context Convenience",
   "description": "Adds additional conveniences and utilities to sidebar context menus.",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "author": "Cole Schultz (cole#9640)",
   "languages": [
     {
@@ -19,12 +19,12 @@
   "esmodules": [
     "ctx-convenience.js"
   ],
-  "minimumCoreVersion": "0.6.4",
-  "compatibleCoreVersion": "0.7.3",
+  "minimumCoreVersion": "0.7.4",
+  "compatibleCoreVersion": "0.7.9",
   "url": "https://github.com/schultzcole/FVTT-Context-Convenience",
   "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-Context-Convenience/master/module.json",
-  "download": "https://github.com/schultzcole/FVTT-Context-Convenience/archive/1.0.0.zip",
-  "license": "https://github.com/schultzcole/FVTT-Context-Convenience/blob/1.0.0/LICENSE",
-  "readme": "https://github.com/schultzcole/FVTT-Context-Convenience/blob/1.0.0/README.md",
-  "changelog": "https://github.com/schultzcole/FVTT-Context-Convenience/blob/1.0.0/CHANGELOG.md"
+  "download": "https://github.com/schultzcole/FVTT-Context-Convenience/archive/2.0.0.zip",
+  "license": "https://github.com/schultzcole/FVTT-Context-Convenience/blob/2.0.0/LICENSE",
+  "readme": "https://github.com/schultzcole/FVTT-Context-Convenience/blob/2.0.0/README.md",
+  "changelog": "https://github.com/schultzcole/FVTT-Context-Convenience/blob/2.0.0/CHANGELOG.md"
 }
