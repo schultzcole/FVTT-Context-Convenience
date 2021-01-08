@@ -12,6 +12,9 @@ Hooks.on("init", () => {
         }
     };
 
+    // Add scene folder context options:
+    //  - Show all scenes in navbar
+    //  - Hide all scenes in navbar
     const scenes_old_getFolderContextOptions = SceneDirectory.prototype._getFolderContextOptions;
     SceneDirectory.prototype._getFolderContextOptions = function () {
         const ctxOptions = scenes_old_getFolderContextOptions.call(this);
@@ -40,6 +43,8 @@ Hooks.on("init", () => {
         return ctxOptions;
     };
 
+    // Add actor entry context options:
+    //  - Edit prototype token
     const actors_old_getEntryContextOptions = ActorDirectory.prototype._getEntryContextOptions;
     ActorDirectory.prototype._getEntryContextOptions = function () {
         const ctxOptions = actors_old_getEntryContextOptions.call(this);
