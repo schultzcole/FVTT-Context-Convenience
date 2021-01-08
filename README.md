@@ -4,18 +4,6 @@ A selection of convenient utility actions to sidebar right-click menus.
 
 ## Functionality
 
-### Global Folder Actions
-
-Actions available on all sidebar folders.
-
-#### Sort Ascending/Descending
-
-Sort entities in any folder alphabetically either ascending or descending.
-
-#### Set Default Permissions
-
-Set the "Default" permission level on all entities in the folder.
-
 ### Scene Folder Actions
 
 #### Show/Hide in Navigation
