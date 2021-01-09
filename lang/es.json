@@ -1,0 +1,12 @@
+{
+    "ctx-convenience": {
+        "I18N": {
+            "LANGUAGE": "Español",
+            "MAINTAINERS": "@Viriato139ac#0342"
+        },
+        "SCENE": {
+            "ShowNavAll": "Mostrar todas las escenas en la barra de navegación",
+            "HideNavAll": "Quitar todas las escenas en la barra de navegación"
+        }
+    }
+}

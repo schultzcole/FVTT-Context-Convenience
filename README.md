@@ -4,18 +4,6 @@ A selection of convenient utility actions to sidebar right-click menus.
 
 ## Functionality
 
-### 📁 Global Folder Actions
-
-Actions available on all sidebar folders.
-
-#### Sort Ascending/Descending
-
-Sort entities in any folder alphabetically either ascending or descending.
-
-#### Set Default Permissions
-
-Set the "Default" permission level on all entities in the folder.
-
 ### 🗺️ Scene Folder Actions
 
 #### Show/Hide in Navigation
@@ -30,7 +18,7 @@ Open the prototype token configuration for an actor without needing to open that
 
 ## API
 
-Utility functions are available in `game.ctxConvenience` for much of the available context menu actions. In some cases, these functions expose parameters beyond what is available in the context menu. For instance, `game.ctxConvenience.folders.sortFolderContents` exposes a `cmp` parameter that lets you define the comparison function that will be used to sort the entities in the folder.
+Utility functions are available in `ContextConvenience` for much of the available context menu actions.
 
 ## Compatibility
 
