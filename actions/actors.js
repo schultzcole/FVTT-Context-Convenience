@@ -8,6 +8,6 @@
  */
 export function configurePrototypeTokenForActor(actorId) {
     const actor = game.actors.get(actorId);
-    const token = actor.token || new Token(actor.data.token);
-    new TokenConfig(token, { configureDefault: !actor.token }).render(true);
+    const token = actor || new Token(actor.data.token);
+    new TokenConfig(token).render(true);
 }
